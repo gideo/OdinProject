@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
+a, p, body {
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	color: #444; 
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+
+/* Google NavBar */
+
+#navbar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+
+#navbar ul {
+	margin: 15px 18px;
+	float: right;
+}
+
+#navbar li{
+	display: inline;
+	padding: 9px;
+	line-height: 15px;
+}
+
+#navbar img {
+	vertical-align: middle;
+}
+
+/* Google Services */
+#you {
+	color: #999;
+}
+
+#user {
+	border-radius: 50%;
+}
+
+#search {
+	text-align: center;
+	padding-top: 200px;
+}
+
+#search input {
+	height: 40px;
+	padding-left: 10px;
+	width: 500px;
+	font-size: large;
+	border: solid 1px #ddd;
+}
+
+#search input:focus {
+	outline: none;
+	border: solid 1px #4387fd;
+}
+
+#search ul {
+	margin-top: 35px;
+}
+
+#search li {
+	position: relative;
+	right: 25px;
+	display: inline;
+	margin: 5px;
+	background-color: #eee;
+	border: solid 1px #eee;
+	border-radius: 2px;
+	padding: 10px;
+	font-weight: 600;
+	color: #777;
+}
+
+#search li:hover {
+	border: solid 1px #bbb;
+	border-bottom: solid 2px #bbb;
+	cursor: default;
+}
+/* Search Box */
+.center {
+	position: absolute;
+	left: 37%;
+	top: 21.5%;
+}
+
+/* Buttons */
+
+#voice {
+	position: relative;
+	right: 30px;
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+}
+/* Footers */
+
+#footer {
+	position: absolute;
+	display: block;
+	width: 100%;
+	bottom: 0px;
+	height: 40px;
+	background-color: #eee;
+	border: solid 1px #efdfef;
+	clear: both;
+}
+
+#footer ul {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+#footer li {
+	padding: 16px;
+	display: inline;
+}
+
+#leftFooter {
+	float: left;
+}
+
+#rightFooter {
+	float: right;
+}
