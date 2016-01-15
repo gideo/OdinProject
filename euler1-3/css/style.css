@@ -1,14 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-p, h1 {
-  font-family: Helvetica, sans-serif;
-  text-align: center;
+p, h2 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
 }
 
-#txtMulti, #txtFibb, #txtPrime {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  font-family: Open Sans, sans-serif;
+#txtDiv, #txtFib, #txtPrime {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: lightblue;
+    font-family: Open Sans, sans-serif;
 }
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}`
