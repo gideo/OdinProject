@@ -1,3 +1,7 @@
+var clearUp = function(name) {
+    document.getElementById(name).value = "";
+}
+
 /* Euler Project #1 */
 
 var div3and5 = function() {
@@ -5,7 +9,7 @@ var div3and5 = function() {
     var arr = [];
     var num = document.getElementById("input1").value;
     document.getElementById("txtDiv").value = "";
-    for(var i = 3; i <= num; i++) {
+    for(var i = 3; i <= num; i+= 1) {
         if(i % 3 === 0 || i % 5 === 0) {
             arr.push(i);
             document.getElementById("txtDiv").value += i + "\t";
