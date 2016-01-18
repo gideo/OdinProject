@@ -1,7 +1,6 @@
 var clearUp = function(name) {
     document.getElementById(name).value = "";
 }
-
 /* Euler Project #1 */
 
 var div3and5 = function() {
@@ -35,10 +34,9 @@ var fibbSum = function() {
 /* Euler Project #3 */
 
 function isPrime(num) {
-    if(num === 2) {
-        return true;
-    }
-    for(var i = 3; i < num; i+=2) {
+    if(num === 2) { return true; }
+
+    for(var i = 3; i <= Math.sqrt(num); i+=2) {
         if(num % i === 0) {
             return false;
         }
